@@ -16,7 +16,7 @@ chrome.webRequest.onBeforeRequest.addListener(
         }
         alert(details.url + "\r\n" + postedString);
       } else {
-        alert(details.url)
+        alert(details.url);
       }
     }
   },

@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Simple get request data",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "<all_urls>"
+  ]
+}
